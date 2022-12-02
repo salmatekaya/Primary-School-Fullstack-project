@@ -1,0 +1,144 @@
+.gestion
+{
+    width: 100% !important;
+    height: 100vh !important;
+  
+    margin: auto;
+    
+}
+.time1{
+    background-color: white;
+    border-width : 1px;
+    border-color: #153f65;
+   
+    
+        height:50px;
+        width:100px;
+  
+
+}
+.time{
+    background-color: white;
+    border-width : 1px;
+    border-color: #153f65;
+   
+    
+        height:50px;
+        width:80px;
+  
+
+}
+.tablecontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+.inputTxt{
+    background-color: white;
+    border-width : 1px;
+    
+        height:30px;
+        width:142px;
+    
+   
+}
+.vide{
+    background: linear-gradient(45deg, #00f 1%, #fff 1%, #fff 49%, #00f 49%, #00f 51%, #fff 51%, #fff 99%, #00f 99%);
+    background-size: 6px 6px;
+    background-position: 50px 50px;
+    border-width : 1px;
+    
+        height:50px;
+        width:180px;
+
+
+}
+.Txt{
+    background-color: white;
+    border-width : 5px;
+    
+        height:50px;
+        width:180px;
+}
+.background{
+     background-color: #153f65;
+}
+
+
+#table{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+   
+   }
+   #td , #th{
+    padding: auto ; 
+    text-align: center;
+    
+   
+   }
+   #th{
+    background-color: black;
+    color: #fafafa;
+    font-family: 'Open Sans',Sans-serif;
+    font-weight: 150;
+    text-transform: uppercase;
+   
+   }
+   #tr{
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+   }
+   
+#plus{
+    color: black;
+    }
+     .btn {
+        padding: 1em 2.1em 1.1em;
+        border-radius: 3px;
+        margin: 8px 8px 8px 8px;
+        color: #fbdedb;
+        background-color: #fbdedb;
+        display: inline-block;
+        background: #e74c3c;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size: .85em;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+        position: relative;
+    }
+    .btn.circular {
+      border-radius: 50em !important;
+    }
+    
+    
+    .blue {
+        background-color: #7abedf;
+        font-size: 11px;
+    }
+    .yellow {
+        background-color: #ecc92b;
+    }
+    .purple {
+        background-color: #564f8a;
+    }
+      
